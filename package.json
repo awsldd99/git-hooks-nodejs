@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.4.5",
-    "pre-commit": "^1.2.2"
+    "husky": "^7.0.4",
+    "jest": "^27.4.5"
   },
   "pre-commit": [
     "test"
