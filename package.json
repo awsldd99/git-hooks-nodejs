@@ -24,7 +24,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "commit-msa": "commitlint -E HUSKY_GIT_PARAMS",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "post-commit": "npm run success-message"
     }
   },
@@ -41,7 +41,7 @@
 
 	  "parserPreset": {
 	      "parserOpts": {
-	         "issuePrefixes": ["ISSUE-"]
+	         "issuePrefixes": "ISSUE-"
 	       }
 	  }
   }
